@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject>Arcanoid.Program</StartupObject>
+    <Win32Resource />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sfml-audio" Version="2.4.2" />
+    <PackageReference Include="sfml-graphics" Version="2.4.2" />
+    <PackageReference Include="sfml-system" Version="2.4.2" />
+    <PackageReference Include="sfml-window" Version="2.4.2" />
+    <PackageReference Include="SFML.Net" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Textures\breakout_sprites.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
